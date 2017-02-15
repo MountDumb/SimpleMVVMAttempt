@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
+
 namespace SimpleMVVMAttempt
 {
     public class Presenter : ObservableObject
@@ -14,6 +15,7 @@ namespace SimpleMVVMAttempt
         private readonly TextConverter _textConverter = new TextConverter(s => s.ToUpper());
         private string _someText;
         private readonly ObservableCollection<string> _history = new ObservableCollection<string>();
+      
 
         public string SomeText
         {

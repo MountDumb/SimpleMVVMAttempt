@@ -8,16 +8,16 @@ namespace SimpleMVVMAttempt.Models
 {
     public class TextConverter
     {
-        private readonly Func<string, string> _convertion;
+        private readonly Func<string, string> _conversion;
 
         public TextConverter(Func<string, string> conversion)
         {
-            _convertion = conversion;
+            _conversion = conversion;
         }
 
         public string ConvertText(string inputText)
         {
-            return _convertion(inputText);
+            return _conversion(inputText);
         }
     }
 }

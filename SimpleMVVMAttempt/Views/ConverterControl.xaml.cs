@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SimpleMVVMAttempt
+namespace SimpleMVVMAttempt.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ConverterControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ConverterControl : UserControl
     {
-        public MainWindow()
+        public ConverterControl()
         {
             InitializeComponent();
         }

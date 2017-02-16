@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 
-namespace SimpleMVVMAttempt
+namespace SimpleMVVMAttempt.ViewModels
 {
     public class ObservableObject : INotifyPropertyChanged
     {

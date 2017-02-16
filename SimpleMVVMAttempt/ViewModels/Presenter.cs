@@ -6,9 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using SimpleMVVMAttempt.Models;
 
 
-namespace SimpleMVVMAttempt
+namespace SimpleMVVMAttempt.ViewModels
 {
     public class Presenter : ObservableObject
     {

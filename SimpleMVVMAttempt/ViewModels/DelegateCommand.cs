@@ -26,13 +26,11 @@ namespace SimpleMVVMAttempt.ViewModels
         {
             return true;
         }
-        
 
+
+        // pragma disables the warning: "Warning CS0067  The event 'DelegateCommand.CanExecuteChanged' is never used" 
+        #pragma warning disable 67
         public event EventHandler CanExecuteChanged;
-
-        //???
-        //#pragma warning disable 67
-        //public event EventHandler CanExecuteChanged;
-        //#pragma warning restore 67
+        #pragma warning restore 67
     }
 }
